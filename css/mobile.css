@@ -46,7 +46,18 @@ footer {
 }
 
 #add_a_torrent {
-  display: none;
+  div#upload_container div.dialog_window div.dialog_message label {
+  margin-top: 15px;
+  display: block; }
+  div#upload_container div.dialog_window div.dialog_message input {
+  margin: 3px auto;
+  display: block; }
+  div#upload_container div.dialog_window div.dialog_message input[type=checkbox] {
+  margin: 15px 3px 0 0;
+  display: inline;
+  width: auto; }
+  div#upload_container div.dialog_window div.dialog_message #auto_start_label {
+  display: inline; }
 }
 
 #statistics {
